@@ -11,6 +11,7 @@ class EmailParser
   end
 
   def parse
+    binding.pry
     @emails.split(/\s,/)
   end
 end
