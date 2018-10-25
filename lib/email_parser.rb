@@ -14,5 +14,3 @@ class EmailParser
     @emails.split(' , ')
   end
 end
-
-
